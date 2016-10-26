@@ -1,23 +1,362 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width = device-width, initial-scale =1">
+<meta name="description" content="Micro J">
+<meta name="keywords" content="my keywords">
+<title>MicroLab</title>
+<link rel="stylesheet" href="style.css" />
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="ie8-and-older.css" />
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
 
-<div class="home">
+<body onresize="resize()" onorientationchange="resize()">
+     <div id="bg-wrap">
+           <canvas id="sky"> This page is made for moden browsers,
+                            Please <a href="#">download Chrome</a>
+                            or go to my static <a href="#">work page</a>,
+                            Thank you.
+           </canvas>
+     </div>
+     <div id="page-wrap">
+            <header class="top-bar">
+                    <figure>
+                        <h1><a href="#gr">&#10904; &#10903;</a></h1>
+                        <h1><a href="#gr">&#10904; &#10903;</a></h1>
+                        <h1><a href="#gr">&#10904; &#10903;</a></h1>
+                    </figure>
+            </header>
+            <div class="nav-menu">
+                  <div class="m-menu">
+                    <a href="#" class="plus">&#10753;</a>
+                    <a href="#" class="minus">&#10754;</a>
+                  </div>
+                  <nav class="menu">
+                        <ul>
+                              <li><a href="#gr" class="active">
+                                         <button class="nav-item" aria-lable="home">
+                                                <span class="nav-icon">&#9651; </span>
+                                                <span class="nav-title">Home</span>
+                                        </button>
+                                  </a>
+                              </li>
+                              <li><a href="#about">
+                                    <button class="nav-item" aria-lable="about">
+                                            <span class="nav-icon">&#9651; </span>
+                                            <span class="nav-title">About</span>
+                                    </button>
+                              </a>
+                             </li>
+                              <li><a href="#works">
+                                         <button class="nav-item" aria-lable="works">
+                                                 <span class="nav-icon">&#9651; </span>
+                                                 <span  class="nav-title">Works</span>
+                                        </button>
+                                  </a>
+                              </li>
+                              <li><a href="mailto:lizwebdesign@fox.com">
+                                    <button class="nav-item" aria-lable="contact">
+                                            <span class="nav-icon">&#9651; </span>
+                                            <span class="nav-title">Contact</span>
+                                    </button>
+                                 </a>
+                             </li>
+                        </ul>
+                    </nav>
+              </div>
+               <main id="mpage">
+                   <div class="container">
+                   <section id="gr" class="row">
+                     <div class="cube-wrap">
+                            <div class="cube">
+                              <div class="funny">
+                                  <p>&gt; Hi~ Homo saipiens. May I call you "Dear Potato" <span class="query query-type">?</span></p>
+                                  <p><button class="go-type">Ok</button><button class="run">No</button></p>
+                                  <p class="line1 line">&gt; Dear Potato, Thank you for being here. <span class="underBar underBar1">_</span></p>
+                                  <p title="Chinese" class="line line2"><span lang="zh-Hans">&gt; 土 豆 君，请 多 关 照 。</span><span class="underBar underBar2">_</span></p>
+                                  <p title="Korean" class="line line3"><span lang="ko">&gt; 감 자 야 ~ 같 이  놀 자 ! <span class="underBar underBar3">_</span></p>
+                                  <p title="Emoji" class="line line4">&gt; ᕙ(©¿©)ᕗ &#9829;&#9829;<span class="underBar underBar4">_</span></p>
+                                  <p class="line line5">&gt;<span class="underBar underBar5">_</span></p>
+                             </div>
+                            </div>
+                     </div>
+                     <h2>Hello, Welcome to my world</h2>
+                     <hr class="hr-text" data-content="&#8897;"></hr>
+                   </section>
+                   <section id="about" class="row">
+                         <h2>About</h2>
+                         <div class="tri-col">
+                             <article>
+                                <p lang="zh-Hans"> <span class="firstCh">土豆</span>土豆，我是栗子。我基本上不太不专业，不太正经，也不太胖。</p>
+                                <p lang="zh-Hans"> 请容我换个开场白：“大家好，我是网页前端开发师，栗子。”<br>
+                                                   通俗易懂的版本是：我是做网页的。<br>
+                                                   我的工作范围是：电脑1米以内。<br>
+                                                   工作内容是敲键盘。</p>
+                                <p lang="zh-Hans"> 目前在积极地克服人类恐惧症以及努力找工作，在有公司收留我之前，我会继续给我身边需要的人做网页。
+                                                   要是看见我的页面还算顺眼的话，请点击左边 ‘contact’ 联系我。</p>
+                                <p lang="zh-Hans"> 突然间，我有种自说自话的感觉，能找到这里的人想必英文都很好。到底为什么我要放段中文呢？永远无法理解自己的脑回路。
+                                                   晚安？早安？午安？请对号领取吉利话。随时欢迎回来。</p>
+                             </article>
+                             <article>
+                                <p><span class="firstEn">Hello</span>, again. It's Lizzy here. I am a coder and a full time learner, recently living in Portland Oregon. </p>
+                                <p>My brain process languages smoothly, My computer language pack including html, css, javascript and jquery.
+                                   For human language, I am fluent at English, Chinese and Korean.</p>
+                                <p>As a front-end developer, I use photoshop for primary design, and work with individuals that create solutions.</p>
+                                <p>I am looking for a full time position now, preferably in a local web agency.
+                                  If you like my page, click 'contact' on left side to send me an E-mail, I will be more than happy to work with you.</p>
+                            </article>
+                             <article>
+                               <p lang="ko"> <span class="firstKr">두번째</span> 페이지로 오셔서 환영합니다. 한국에서 8년 넘게 살았던 리쯔이 입니다.
+                                            떠난지 2년도 안 되지만 한국이 너무 그립습니다. 제가 먹여줬던 길양이들하고 살았던 옥탑방.</p>
+                              <p lang="ko"> 현재 미국에서 작은 웹 프로젝트를 하면서 꾸준히 공부하고 있습니다.
+                                            웹 전단 개발자로써 웹에이젼시에 꼭 취직하려고 노력중입니다. <br>
+                                            한국에서 웹 디자인너로 일한 경험이 아주 조금 있지만 너무 오래돼서 어필하기 좀 그렇습니다.
+                                            그래도 혹시나 보시는 분 중에 같은 주나 같은 도시에 사시는 포로그래머분들이면 연락 부탁드립니다.</p>
+                             <p lang="ko"> 또한, 웹 페이지 필요하시는 분들에게 제가 재택근무 가능하니 윈쪽 '콘택트' 클릭하시면 바로 저한테 이메일 보내실 수 있습니다.
+                                           <br>방문하셔서 감사하고 오늘도 즐거운 하루 되시길 바랍니다.
+                                          </p>
+                           </article>
+                     </div>
 
-  <h1 class="page-heading">Posts</h1>
+                   </section>
+                  <section id="works" class="row">
+                         <h2>Works</h2>
+                         <div class="work-container">
+                              <div class="hrzl-slides">
+                                    <ol>
+                                        <li class="each">
+                                            <div class="slide-box">
+                                                  <div class="info">
+                                                     <h3>Fine Lines</h3>
+                                                     <em>Portfolio page for a photograph and retouching studio</em>
+                                                     <p>
+                                                       <strong>Progress</strong><br>
+                                                       <progress value="50" max="100">50%</progress>
+                                                     </p>
+                                                     <p>
+                                                     <strong>Tea consumed</strong><br>
+                                                     <span>&#9749; &#9749; &#9749; &#9749; &#9749; &#9749;</span>
+                                                     </p>
+                                                     <p>
+                                                       <strong>Detail</strong><br>
+                                                       My custorm only want a show case of their works.
+                                                       The slides section will be high-lighted.
+                                                       MarkUp: html/css. jQuery.
+                                                       Working on php and SQL for easier management.
+                                                     </p>
+                                                   </div>
+                                                   <div class="visual" style="color:#e09690; border:1px solid #85e3fa;">
+                                                     <p style="text-align:center; margin:5rem auto;">This page is under construction. Please go to next one</p>
+                                                     <pre>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                      ______m______m__________
+                ...........||......||.................
+                ..........||........||.................
+                ............(..O-O.)...................
+                ............\ .. /......................
+                .............|..|.......................
+                .............|..|.......................
+                ............/... \......................
+                ...........||...||.....................
+                ...........||...||.....................
+                ...........m...m....................
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+                                                     </pre>
+                                                   </div>
+                                             </div>
+                                        </li>
+                                        <li class="each">
+                                            <div class="slide-box">
+                                              <div class="info">
+                                                 <h3>Chinese Go language tutoring</h3>
+                                                 <em><a href="#0">Fully functional static site</a></em>
+                                                 <p>
+                                                   <strong>Progress</strong><br>
+                                                   <progress value="90" max="100"></progress>
+                                                 </p>
+                                                 <p>
+                                                 <strong>Tea consumed</strong><br>
+                                                 <span>&#9749; &#9749; &#9749; &#9749;</span>
+                                                 </p>
+                                                 <p>
+                                                   <strong>Detail</strong><br>
+                                                    The index page was powered by css3, slightly used javascript for cross-browser compatibility.
+                                                    After finished the initial coding of sub page, I started to learn php and mySQL.
+                                                    This is the first site that I am doing the back end developing
+                                                    part by myself.
+                                                 </p>
+                                               </div>
+                                              <div class="visual">
+                                                   <ul class="img-slides">
+                                                        <li>
+                                                            <input type="radio" id="img1" name="group1" checked="checked">
+                                                            <label for="img1"></label>
+                                                            <div class="image" style="background-image: url(img/p1.png);"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" id="img2" name="group1">
+                                                            <label for="img2"></label>
+                                                            <div class="image" style="background-image: url(img/p2.png);"></div>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" id="img3" name="group1">
+                                                            <label for="img3"></label>
+                                                            <div class="image" style="background-image: url(img/p3.png);"></div>
+                                                        </li>
+                                                   </ul>
+                                              </div>
+                                        </li>
+                                        <li  class="each">
+                                            <div class="slide-box">
+                                              <div class="info">
+                                                 <h3>Simple Business Website</h3>
+                                                 <em><a href="#">A template for small business</a></em>
+                                                 <p>
+                                                   <strong>Progress</strong><br>
+                                                   <progress value="80" max="100"></progress>
+                                                 </p>
+                                                 <p>
+                                                 <strong>Tea consumed</strong><br>
+                                                 <span>&#9749; &#9749; &#9749; </span>
+                                                 </p>
+                                                 <p>
+                                                   <strong>Detail</strong><br>
+                                                   Send me your content, I will give you a responsive website in a week.<br>
+                                                   Price start from $150.<br>
+                                                   Notice: Domain and server fee was not included.
+                                                   But I will help you go through the registering progress.
+                                                  </p>
+                                               </div>
+                                               <div class="visual">
+                                                 <ul class="img-slides">
+                                                      <li>
+                                                          <input type="radio" id="img9" name="group3" checked="checked">
+                                                          <label for="img9"></label>
+                                                          <div class="image" style="background-image: url(img/p9.png);"></div>
+                                                      </li>
+                                                      <li>
+                                                          <input type="radio" id="img10" name="group3">
+                                                          <label for="img10"></label>
+                                                          <div class="image" style="background-image: url(img/p2.png);"></div>
+                                                      </li>
+                                                 </ul>
+                                               </div>
+                                             </div>
+                                        </li>
+                                        <li class="each">
+                                            <div class="slide-box">
+                                                  <div class="info">
+                                                     <h3>A brief history of human being</h3>
+                                                     <em>A parallax scrolling website</em>
+                                                     <p>
+                                                       <strong>Progress</strong><br>
+                                                       <progress value="60" max="100"></progress>
+                                                     </p>
+                                                     <p>
+                                                     <strong>Tea consumed</strong><br>
+                                                     <span>&#9749; &#9749; &#9749; &#9749; &#9749; &#9749;</span>
+                                                     </p>
+                                                     <p>
+                                                       <strong>Detail</strong><br>
+                                                       One page with parallax scrolling effect. Great for resume,
+                                                       story telling or inforgrafic.
+                                                       Price depends on the content.
+                                                       Choose from static or resposive.
+                                                     </p>
+                                                   </div>
+                                                   <div class="visual">
+                                                     <ul class="img-slides">
+                                                          <li>
+                                                              <input type="radio" id="img11" name="group4" checked="checked">
+                                                              <label for="img11"></label>
+                                                              <div class="image" style="background-image: url(img/p1.png);"></div>
+                                                          </li>
+                                                          <li>
+                                                              <input type="radio" id="img12" name="group4">
+                                                              <label for="img12"></label>
+                                                              <div class="image" style="background-image: url(img/p2.png);"></div>
+                                                          </li>
+                                                     </ul>
+                                                   </div>
+                                             </div>
+                                        </li>
+                                        <li  class="each">
+                                            <div class="slide-box">
+                                                  <div class="info">
+                                                     <h3>Angency Work</h3>
+                                                     <em>A collection of all the sites I worked on back of the day.</em>
+                                                     <p>
+                                                       <strong>Progress</strong><br>
+                                                       <progress value="100" max="100"></progress>
+                                                     </p>
+                                                     <p>
+                                                     <strong>Tea consumed</strong><br>
+                                                     <span>&#9749; &#9749; &#9749; &#9749; &#9749; &#9749;</span>
+                                                     </p>
+                                                     <p>
+                                                       <strong>Detail</strong><br>
+                                                       I was employed by a Korean web agency from July 2012 to Feb 2013.
+                                                       Here highly Internet Explore compatibility was required.
+                                                       The sites showing here was still using flash for animation.
+                                                       Most of my daily task was de-bugging.
+                                                       sorry no links for this one.
+                                                   </div>
+                                                   <div class="visual">
+                                                     <ul class="img-slides">
+                                                          <li>
+                                                              <input type="radio" id="img4" name="group2" checked="checked">
+                                                              <label for="img4"></label>
+                                                              <div class="image" style="background-image: url(img/p4.jpg);"></div>
+                                                          </li>
+                                                          <li>
+                                                              <input type="radio" id="img5" name="group2">
+                                                              <label for="img5"></label>
+                                                              <div class="image" style="background-image: url(img/p5.jpg);"></div>
+                                                          </li>
+                                                          <li>
+                                                              <input type="radio" id="img6" name="group2">
+                                                              <label for="img6"></label>
+                                                              <div class="image" style="background-image: url(img/p6.jpg);"></div>
+                                                          </li>
+                                                          <li>
+                                                              <input type="radio" id="img7" name="group2">
+                                                              <label for="img7"></label>
+                                                              <div class="image" style="background-image: url(img/p7.jpg);"></div>
+                                                          </li>
+                                                          <li>
+                                                              <input type="radio" id="img8" name="group2">
+                                                              <label for="img8"></label>
+                                                              <div class="image" style="background-image: url(img/p8.jpg);"></div>
+                                                          </li>
+                                                     </ul>
+                                                   </div>
+                                             </div>
+                                        </li>
+                                    </ol>
+                              </div><!-- hrzl-slides end-->
+                              <div class="slide-nav">
+                                    <div class="counter"><span class="index">1</span> / <span class="total"></span></div>
+                                    <button class="paginate left"><i></i><i></i></button>
+                                    <button class="paginate right"><i></i><i></i></button>
+                              </div><!--slide-nav end-->
+                          </div><!--work-container end-->
+                   </section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+           </div><!--container end-->
+         </main>
+         <footer>
+           <address>To Mars</address>
+       </footer>
+   </div><!--page-wrap end-->
 
-</div>
+<script type="text/javascript" src="stars.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+<script src="slide.jquery.js"></script>
+
+</body>
+</html>
